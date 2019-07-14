@@ -1,0 +1,20 @@
+uuid: c0e28fbc-fcce-4314-931d-9574c526968c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.ligne_de_financement
+  module:
+    - user
+id: node.ligne_de_financement.teaser
+targetEntityType: node
+bundle: ligne_de_financement
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,24 @@
+uuid: da872657-d0d9-4b24-a1d0-57f3daa34719
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.prochains_evenements
+  module:
+    - views
+  theme:
+    - bootstrap
+id: views_block__prochains_evenements_block_1
+theme: bootstrap
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:prochains_evenements-block_1'
+settings:
+  id: 'views_block:prochains_evenements-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

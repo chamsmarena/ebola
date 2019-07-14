@@ -1,0 +1,28 @@
+uuid: e997a103-0fca-4efa-9f7f-7dea5c185d81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_financement_commission
+    - node.type.commission
+    - node.type.ligne_de_financement
+id: node.ligne_de_financement.field_financement_commission
+field_name: field_financement_commission
+entity_type: node
+bundle: ligne_de_financement
+label: Commission
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      commission: commission
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

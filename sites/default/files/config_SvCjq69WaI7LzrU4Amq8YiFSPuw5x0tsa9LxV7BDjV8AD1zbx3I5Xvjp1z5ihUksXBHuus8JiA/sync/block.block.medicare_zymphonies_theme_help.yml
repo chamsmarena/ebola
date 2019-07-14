@@ -1,0 +1,22 @@
+uuid: 9e07fc45-9e8e-444a-9328-ec25a2b6f993
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - medicare_zymphonies_theme
+_core:
+  default_config_hash: hHy5zcnQkIR6ZkDz5zrO9gKiJaYw1bRGzAGxg1j6e38
+id: medicare_zymphonies_theme_help
+theme: medicare_zymphonies_theme
+region: highlighted
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

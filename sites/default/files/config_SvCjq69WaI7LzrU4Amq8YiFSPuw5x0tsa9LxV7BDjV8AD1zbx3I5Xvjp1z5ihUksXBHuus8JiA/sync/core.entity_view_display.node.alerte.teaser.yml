@@ -1,0 +1,34 @@
+uuid: a90bda37-f4a0-4e49-857a-999a26c13013
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.alerte.field_alerte_adresse_contact
+    - field.field.node.alerte.field_alerte_date
+    - field.field.node.alerte.field_alerte_email_contact
+    - field.field.node.alerte.field_alerte_niveau
+    - field.field.node.alerte.field_alerte_nom_contact
+    - field.field.node.alerte.field_alerte_numero_de_telephone
+    - field.field.node.alerte.field_alerte_prenom_contact
+    - node.type.alerte
+  module:
+    - user
+id: node.alerte.teaser
+targetEntityType: node
+bundle: alerte
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_alerte_adresse_contact: true
+  field_alerte_date: true
+  field_alerte_email_contact: true
+  field_alerte_niveau: true
+  field_alerte_nom_contact: true
+  field_alerte_numero_de_telephone: true
+  field_alerte_prenom_contact: true

@@ -1,0 +1,22 @@
+uuid: d617d8ec-1150-4f76-9028-1454708dd4e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ligne_de_financement
+id: node.ligne_de_financement.promote
+field_name: promote
+entity_type: node
+bundle: ligne_de_financement
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

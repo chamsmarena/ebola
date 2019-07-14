@@ -1,0 +1,54 @@
+uuid: 115f5f0a-82c9-4a46-8678-82bf890da496
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.urgence.field_urgence_date_de_debut
+    - field.field.node.urgence.field_urgence_date_de_fin
+    - field.field.node.urgence.field_urgence_description
+    - field.field.node.urgence.field_urgence_statut
+    - node.type.urgence
+  module:
+    - datetime
+    - options
+    - text
+    - user
+id: node.urgence.default
+targetEntityType: node
+bundle: urgence
+mode: default
+content:
+  field_urgence_date_de_debut:
+    weight: 1
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_urgence_date_de_fin:
+    weight: 2
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_urgence_description:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_urgence_statut:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden:
+  links: true

@@ -1,0 +1,39 @@
+uuid: 8242c5bc-7142-4253-a5e1-5c2591974490
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.commission.field_commission_description
+    - field.field.node.commission.field_commission_logo
+    - node.type.commission
+  module:
+    - image
+    - text
+    - user
+id: node.commission.default
+targetEntityType: node
+bundle: commission
+mode: default
+content:
+  field_commission_description:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_commission_logo:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,29 @@
+uuid: 2943778e-c5e6-4104-b56f-2001b7b2fca2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_equipe_coord_localite
+    - node.type.equipe_de_coordination
+    - node.type.localite
+id: node.equipe_de_coordination.field_equipe_coord_localite
+field_name: field_equipe_coord_localite
+entity_type: node
+bundle: equipe_de_coordination
+label: Localité
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      localite: localite
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,20 @@
+uuid: 783a7d00-6840-4215-9b52-75c6b98b844a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - medicare_zymphonies_theme
+_core:
+  default_config_hash: '-2Pq3ryTo3_siOUHCLG3Uc9KoiJu025VhQjBgndKh8U'
+id: medicare_zymphonies_theme_page_title
+theme: medicare_zymphonies_theme
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

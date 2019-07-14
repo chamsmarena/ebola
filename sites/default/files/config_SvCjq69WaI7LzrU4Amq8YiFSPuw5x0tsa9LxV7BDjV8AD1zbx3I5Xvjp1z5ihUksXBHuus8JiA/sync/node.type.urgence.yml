@@ -1,0 +1,17 @@
+uuid: ecfddb33-2374-45db-bed1-6a1f8983e79c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Urgence
+type: urgence
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

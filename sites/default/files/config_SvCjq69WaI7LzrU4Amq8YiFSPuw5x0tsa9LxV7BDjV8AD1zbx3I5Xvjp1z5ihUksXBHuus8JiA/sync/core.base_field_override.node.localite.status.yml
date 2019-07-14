@@ -1,0 +1,22 @@
+uuid: 3dc62352-621c-4785-a977-59b80bdaad61
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.localite
+id: node.localite.status
+field_name: status
+entity_type: node
+bundle: localite
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

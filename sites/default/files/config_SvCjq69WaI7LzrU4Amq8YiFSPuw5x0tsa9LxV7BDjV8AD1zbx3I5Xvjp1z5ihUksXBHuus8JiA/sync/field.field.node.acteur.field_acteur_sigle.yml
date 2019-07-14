@@ -1,0 +1,19 @@
+uuid: 13c69513-1906-4c40-aabe-d51698fa6c27
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_acteur_sigle
+    - node.type.acteur
+id: node.acteur.field_acteur_sigle
+field_name: field_acteur_sigle
+entity_type: node
+bundle: acteur
+label: Sigle
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,14 @@
+uuid: b6267ea3-223b-4a7c-b540-2b81b76be7bc
+name: ebola2
+mail: mane2@un.org
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /test
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

@@ -1,0 +1,17 @@
+uuid: 0d423779-97b1-4ff8-9283-6ff081eb4ffd
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Financement
+type: financement
+description: 'Financements recus'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

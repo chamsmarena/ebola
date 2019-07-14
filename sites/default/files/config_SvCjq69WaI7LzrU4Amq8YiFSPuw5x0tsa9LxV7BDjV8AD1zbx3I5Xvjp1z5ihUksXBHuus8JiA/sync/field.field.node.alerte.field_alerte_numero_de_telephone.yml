@@ -1,0 +1,19 @@
+uuid: da4d7c67-ab7a-4a3e-9eca-6729284a6f6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alerte_numero_de_telephone
+    - node.type.alerte
+id: node.alerte.field_alerte_numero_de_telephone
+field_name: field_alerte_numero_de_telephone
+entity_type: node
+bundle: alerte
+label: 'Numéro de téléphone'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

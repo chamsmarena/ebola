@@ -1,0 +1,17 @@
+uuid: bbecaa3e-fa4f-4685-94a3-a6c5a3ad39a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Commission
+type: commission
+description: 'Commission intervenant dans chaque localité'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

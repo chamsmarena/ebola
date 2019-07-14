@@ -1,0 +1,21 @@
+uuid: 56d80a1c-7f33-4f93-bb73-22f00a7b0c7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_financement_date
+    - node.type.financement
+  module:
+    - datetime
+id: node.financement.field_financement_date
+field_name: field_financement_date
+entity_type: node
+bundle: financement
+label: 'Date de financement'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

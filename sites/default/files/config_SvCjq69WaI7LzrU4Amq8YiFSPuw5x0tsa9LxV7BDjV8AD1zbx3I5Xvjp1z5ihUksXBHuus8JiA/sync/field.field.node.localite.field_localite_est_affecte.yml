@@ -1,0 +1,23 @@
+uuid: 097b1f07-a6e0-44b5-a5d1-58d9c239a80e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_localite_est_affecte
+    - node.type.localite
+id: node.localite.field_localite_est_affecte
+field_name: field_localite_est_affecte
+entity_type: node
+bundle: localite
+label: 'Est affecté'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Localité affecté'
+  off_label: 'Localité non affecté'
+field_type: boolean

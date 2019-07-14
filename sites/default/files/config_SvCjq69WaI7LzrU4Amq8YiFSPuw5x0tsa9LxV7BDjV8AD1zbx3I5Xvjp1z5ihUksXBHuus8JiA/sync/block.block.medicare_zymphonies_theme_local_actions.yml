@@ -1,0 +1,20 @@
+uuid: 7f7e37b7-a2f3-4750-89d5-c798a74c4f4c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - medicare_zymphonies_theme
+_core:
+  default_config_hash: eR04qJhzNvL-Dmh_jAQDFbTrjil1_zaoL9nC13KlbgM
+id: medicare_zymphonies_theme_local_actions
+theme: medicare_zymphonies_theme
+region: auto_hidden_block
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

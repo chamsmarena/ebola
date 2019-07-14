@@ -1,0 +1,27 @@
+uuid: bbbd2430-123e-4a63-8482-3533e5b012dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_infogra_fichiers
+    - node.type.infographie
+  module:
+    - file
+id: node.infographie.field_infogra_fichiers
+field_name: field_infogra_fichiers
+entity_type: node
+bundle: infographie
+label: Fichiers
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: txt
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

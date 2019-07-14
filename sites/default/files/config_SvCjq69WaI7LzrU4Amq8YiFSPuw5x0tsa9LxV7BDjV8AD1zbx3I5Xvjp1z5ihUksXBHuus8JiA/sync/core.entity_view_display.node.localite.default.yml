@@ -1,0 +1,30 @@
+uuid: 28a13495-97de-48e6-952c-6db1aabc2051
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.localite.field_localite_est_affecte
+    - node.type.localite
+  module:
+    - user
+id: node.localite.default
+targetEntityType: node
+bundle: localite
+mode: default
+content:
+  field_localite_est_affecte:
+    weight: 101
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

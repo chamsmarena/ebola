@@ -1,0 +1,18 @@
+uuid: 9fe0375f-aa60-4ebc-89e8-7456b3826213
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.infographie
+id: node.infographie.title
+field_name: title
+entity_type: node
+bundle: infographie
+label: Titre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: 35858b42-1be3-4b3c-a9fc-01241086d281
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.equipe_de_coordination
+id: node.equipe_de_coordination.promote
+field_name: promote
+entity_type: node
+bundle: equipe_de_coordination
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

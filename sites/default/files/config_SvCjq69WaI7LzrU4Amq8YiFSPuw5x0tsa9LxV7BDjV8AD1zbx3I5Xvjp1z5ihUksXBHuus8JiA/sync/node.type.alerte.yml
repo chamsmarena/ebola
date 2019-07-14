@@ -1,0 +1,17 @@
+uuid: 8be7acd2-5748-4bc6-be39-13a75f42648e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Alerte
+type: alerte
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,84 @@
+uuid: 764d2eeb-b99a-4a0e-acf7-eee52c28e300
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.acteur.field_acteur_adresse
+    - field.field.node.acteur.field_acteur_description
+    - field.field.node.acteur.field_acteur_e_mail
+    - field.field.node.acteur.field_acteur_logo
+    - field.field.node.acteur.field_acteur_numero_de_telephone
+    - field.field.node.acteur.field_acteur_sigle
+    - field.field.node.acteur.field_acteur_site_web
+    - node.type.acteur
+  module:
+    - image
+    - text
+    - user
+id: node.acteur.default
+targetEntityType: node
+bundle: acteur
+mode: default
+content:
+  field_acteur_adresse:
+    weight: 9
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_acteur_description:
+    weight: 8
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_acteur_e_mail:
+    weight: 10
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_acteur_logo:
+    weight: 11
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_acteur_numero_de_telephone:
+    weight: 12
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_acteur_sigle:
+    weight: 13
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_acteur_site_web:
+    weight: 14
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,22 @@
+uuid: 345c83a5-a30e-49ce-b2a7-9266fa4517fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.urgence
+id: node.urgence.status
+field_name: status
+entity_type: node
+bundle: urgence
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

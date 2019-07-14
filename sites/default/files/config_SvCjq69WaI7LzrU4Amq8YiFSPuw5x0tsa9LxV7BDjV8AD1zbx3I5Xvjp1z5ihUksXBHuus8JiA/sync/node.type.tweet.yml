@@ -1,0 +1,17 @@
+uuid: 35c2d480-519a-4290-86e8-10f9d7a86cd6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Tweet
+type: tweet
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

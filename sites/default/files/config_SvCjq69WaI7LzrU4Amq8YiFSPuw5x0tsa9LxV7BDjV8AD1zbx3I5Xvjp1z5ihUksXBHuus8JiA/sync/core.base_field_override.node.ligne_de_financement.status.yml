@@ -1,0 +1,22 @@
+uuid: b0e6069e-d891-4cac-a911-c4dd893c0872
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ligne_de_financement
+id: node.ligne_de_financement.status
+field_name: status
+entity_type: node
+bundle: ligne_de_financement
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

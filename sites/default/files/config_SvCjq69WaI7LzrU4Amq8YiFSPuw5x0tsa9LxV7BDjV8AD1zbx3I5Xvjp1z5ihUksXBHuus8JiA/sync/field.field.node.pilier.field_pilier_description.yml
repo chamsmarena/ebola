@@ -1,0 +1,21 @@
+uuid: 1814189b-a9fc-419f-b4bc-659481ac44f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pilier_description
+    - node.type.pilier
+  module:
+    - text
+id: node.pilier.field_pilier_description
+field_name: field_pilier_description
+entity_type: node
+bundle: pilier
+label: Description
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,26 @@
+uuid: 584ef9fe-2682-4385-9cff-74009c857d28
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.document.field_document_date_publication
+    - field.field.node.document.field_document_fichiers
+    - field.field.node.document.field_document_type
+    - node.type.document
+  module:
+    - user
+id: node.document.teaser
+targetEntityType: node
+bundle: document
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_document_date_publication: true
+  field_document_fichiers: true
+  field_document_type: true

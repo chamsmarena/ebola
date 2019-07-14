@@ -1,0 +1,24 @@
+uuid: eb453c26-48ea-43c2-bf96-f979c4f65f3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_document_date_publication
+    - node.type.document
+  module:
+    - datetime
+id: node.document.field_document_date_publication
+field_name: field_document_date_publication
+entity_type: node
+bundle: document
+label: 'Date publication'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

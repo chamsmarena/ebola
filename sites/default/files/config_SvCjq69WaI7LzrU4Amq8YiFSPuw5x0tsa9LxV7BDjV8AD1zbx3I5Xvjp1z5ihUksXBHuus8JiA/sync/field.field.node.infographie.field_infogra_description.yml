@@ -1,0 +1,21 @@
+uuid: 9b9b6b25-abe5-42a3-99be-b5142dccd3fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_infogra_description
+    - node.type.infographie
+  module:
+    - text
+id: node.infographie.field_infogra_description
+field_name: field_infogra_description
+entity_type: node
+bundle: infographie
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,34 @@
+features:
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+  logo: true
+  name: true
+  node_user_picture: 1
+  slogan: true
+facebook_url: 'https://www.facebook.com/zymphonies'
+twitter_url: 'https://twitter.com/zymphonies'
+google_plus_url: 'https://plus.google.com/+ZymphoniesTechnologies'
+linkedin_url: 'http://www.linkedin.com/company/zymphonies'
+pinterest_url: 'https://www.pinterest.com/zymphonies/'
+rss_url: rss.xml
+show_social_icon: 1
+show_credit_link: 1
+show_slideshow: 0
+no_of_slides: '2'
+slide_title_1: 'The Easiest Way to Get suitable Property'
+slide_description_1: 'Find Flats, Apartments & Real Estate'
+slide_url_1: '#'
+slide_image_path_1: /images/slider/slide_01.jpg
+slide_title_2: 'Make a Difference in Your Career Track'
+slide_description_2: 'Find Jobs, Employment & Career Opportunities'
+slide_url_2: '#'
+slide_image_path_2: /images/slider/slide_02.jpg
+_core:
+  default_config_hash: TCnsvjszngwaTxzCilUk5_D2oxTo2EyAXpgC8yaDmZs
+logo:
+  use_default: 1
+favicon:
+  use_default: 1
+slide_image_path1: {  }
+slide_image_path2: {  }

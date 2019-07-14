@@ -1,0 +1,98 @@
+uuid: 78d03bc7-a6b6-4c2a-99d5-997789da1de7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.document.field_document_date_publication
+    - field.field.node.document.field_document_description
+    - field.field.node.document.field_document_fichiers
+    - field.field.node.document.field_document_image
+    - field.field.node.document.field_document_source
+    - field.field.node.document.field_document_type
+    - field.field.node.document.field_document_urgence
+    - image.style.thumbnail
+    - node.type.document
+  module:
+    - datetime
+    - file
+    - image
+    - text
+id: node.document.default
+targetEntityType: node
+bundle: document
+mode: default
+content:
+  field_document_date_publication:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_document_description:
+    weight: 4
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_document_fichiers:
+    weight: 5
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_document_image:
+    weight: 26
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_document_source:
+    weight: 27
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_document_type:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_document_urgence:
+    weight: 28
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 1
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

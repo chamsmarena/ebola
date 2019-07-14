@@ -1,0 +1,20 @@
+uuid: beb8eb17-af47-4f82-baf6-0aaf197ca547
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.urgence
+  module:
+    - user
+id: node.urgence.teaser
+targetEntityType: node
+bundle: urgence
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

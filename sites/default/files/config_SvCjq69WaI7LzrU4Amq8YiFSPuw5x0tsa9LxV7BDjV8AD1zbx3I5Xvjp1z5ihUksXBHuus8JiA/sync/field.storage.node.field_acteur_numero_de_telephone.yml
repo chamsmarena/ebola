@@ -1,0 +1,21 @@
+uuid: 9551b895-af28-4d12-a5f2-49c57d886e06
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_acteur_numero_de_telephone
+field_name: field_acteur_numero_de_telephone
+entity_type: node
+type: string
+settings:
+  max_length: 20
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

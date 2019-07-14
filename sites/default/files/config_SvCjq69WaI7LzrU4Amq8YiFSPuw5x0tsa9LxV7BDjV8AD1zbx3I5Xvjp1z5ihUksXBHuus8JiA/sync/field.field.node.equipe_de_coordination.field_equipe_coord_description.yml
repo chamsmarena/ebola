@@ -1,0 +1,21 @@
+uuid: 2c475a6c-e388-4024-bc1f-db61f7effc72
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_equipe_coord_description
+    - node.type.equipe_de_coordination
+  module:
+    - text
+id: node.equipe_de_coordination.field_equipe_coord_description
+field_name: field_equipe_coord_description
+entity_type: node
+bundle: equipe_de_coordination
+label: Description
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

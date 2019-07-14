@@ -1,0 +1,19 @@
+uuid: a070b7d4-0e55-4a93-ac52-98ea85cba10d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alerte_email_contact
+    - node.type.alerte
+id: node.alerte.field_alerte_email_contact
+field_name: field_alerte_email_contact
+entity_type: node
+bundle: alerte
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

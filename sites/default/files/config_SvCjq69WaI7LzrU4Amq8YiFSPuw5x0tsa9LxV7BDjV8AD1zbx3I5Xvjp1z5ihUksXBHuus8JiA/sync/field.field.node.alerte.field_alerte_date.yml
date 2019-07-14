@@ -1,0 +1,24 @@
+uuid: b245361a-0ca1-495a-9021-e267c6b20dbe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alerte_date
+    - node.type.alerte
+  module:
+    - datetime
+id: node.alerte.field_alerte_date
+field_name: field_alerte_date
+entity_type: node
+bundle: alerte
+label: Date
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

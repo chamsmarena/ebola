@@ -1,0 +1,19 @@
+uuid: 9e37913a-87a7-48f2-8294-4024570ea13a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_pilier_description
+field_name: field_pilier_description
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

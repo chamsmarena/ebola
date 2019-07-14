@@ -1,0 +1,22 @@
+uuid: 19034041-eb13-4721-82d0-ba98a7cabb7f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - medicare_zymphonies_theme
+_core:
+  default_config_hash: 3ZimNNIIBpiYcM6F-i885qQ174rjfI0Od9jLnt2cxWw
+id: medicare_zymphonies_theme_powered
+theme: medicare_zymphonies_theme
+region: auto_hidden_block
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

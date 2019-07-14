@@ -1,0 +1,37 @@
+uuid: 80301386-57f0-4a9f-b8fb-802bb10847fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.equipe_de_coordination.field_equipe_coord_description
+    - field.field.node.equipe_de_coordination.field_equipe_coord_localite
+    - node.type.equipe_de_coordination
+  module:
+    - text
+    - user
+id: node.equipe_de_coordination.default
+targetEntityType: node
+bundle: equipe_de_coordination
+mode: default
+content:
+  field_equipe_coord_description:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_equipe_coord_localite:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

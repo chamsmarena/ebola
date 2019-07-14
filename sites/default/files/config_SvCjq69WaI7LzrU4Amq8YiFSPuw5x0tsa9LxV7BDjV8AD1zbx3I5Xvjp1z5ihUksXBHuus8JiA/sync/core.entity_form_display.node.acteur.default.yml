@@ -1,0 +1,99 @@
+uuid: b17e59bf-12b3-4816-a3a6-220c751f05ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.acteur.field_acteur_adresse
+    - field.field.node.acteur.field_acteur_description
+    - field.field.node.acteur.field_acteur_e_mail
+    - field.field.node.acteur.field_acteur_logo
+    - field.field.node.acteur.field_acteur_numero_de_telephone
+    - field.field.node.acteur.field_acteur_sigle
+    - field.field.node.acteur.field_acteur_site_web
+    - image.style.thumbnail
+    - node.type.acteur
+  module:
+    - image
+    - text
+id: node.acteur.default
+targetEntityType: node
+bundle: acteur
+mode: default
+content:
+  field_acteur_adresse:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_acteur_description:
+    weight: 26
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_acteur_e_mail:
+    weight: 28
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_acteur_logo:
+    weight: 29
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_acteur_numero_de_telephone:
+    weight: 30
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_acteur_sigle:
+    weight: 31
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_acteur_site_web:
+    weight: 32
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  status:
+    type: boolean_checkbox
+    weight: 8
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

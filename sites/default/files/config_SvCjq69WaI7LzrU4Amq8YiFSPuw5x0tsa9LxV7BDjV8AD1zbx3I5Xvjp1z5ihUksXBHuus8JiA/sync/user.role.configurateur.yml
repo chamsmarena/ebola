@@ -1,0 +1,9 @@
+uuid: 3175d1f4-49d2-47b9-8210-bee510f5874e
+langcode: en
+status: true
+dependencies: {  }
+id: configurateur
+label: Configurateur
+weight: 3
+is_admin: null
+permissions: {  }

@@ -1,0 +1,21 @@
+uuid: 23f8677b-e6e4-4c28-b068-1197fb215f6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alerte_description
+    - node.type.alerte
+  module:
+    - text
+id: node.alerte.field_alerte_description
+field_name: field_alerte_description
+entity_type: node
+bundle: alerte
+label: Description
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

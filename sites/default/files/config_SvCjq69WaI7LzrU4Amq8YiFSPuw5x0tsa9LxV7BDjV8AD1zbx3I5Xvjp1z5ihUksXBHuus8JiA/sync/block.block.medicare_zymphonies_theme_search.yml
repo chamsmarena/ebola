@@ -1,0 +1,22 @@
+uuid: 95733752-a162-403f-9d88-0a9bb7bd3710
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - medicare_zymphonies_theme
+_core:
+  default_config_hash: CEv6NH6i03vVEweQWYnJaSilBuM4aHw7X0e7qmQSmbs
+id: medicare_zymphonies_theme_search
+theme: medicare_zymphonies_theme
+region: search
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

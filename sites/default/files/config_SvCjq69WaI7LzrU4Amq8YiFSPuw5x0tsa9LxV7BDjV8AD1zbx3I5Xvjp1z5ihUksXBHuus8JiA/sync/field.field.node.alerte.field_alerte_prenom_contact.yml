@@ -1,0 +1,19 @@
+uuid: 8dd331a5-f00c-46fb-90f8-e14ce2ba671b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alerte_prenom_contact
+    - node.type.alerte
+id: node.alerte.field_alerte_prenom_contact
+field_name: field_alerte_prenom_contact
+entity_type: node
+bundle: alerte
+label: 'Prénom contact'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,102 @@
+uuid: 24f3fa0d-a5a2-4e63-a7eb-5d64b87b113d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.alerte.field_alerte_adresse_contact
+    - field.field.node.alerte.field_alerte_date
+    - field.field.node.alerte.field_alerte_description
+    - field.field.node.alerte.field_alerte_email_contact
+    - field.field.node.alerte.field_alerte_localite
+    - field.field.node.alerte.field_alerte_niveau
+    - field.field.node.alerte.field_alerte_nom_contact
+    - field.field.node.alerte.field_alerte_numero_de_telephone
+    - field.field.node.alerte.field_alerte_prenom_contact
+    - node.type.alerte
+  module:
+    - datetime
+    - options
+    - text
+    - user
+id: node.alerte.default
+targetEntityType: node
+bundle: alerte
+mode: default
+content:
+  field_alerte_adresse_contact:
+    weight: 108
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_alerte_date:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_alerte_description:
+    weight: 109
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_alerte_email_contact:
+    weight: 107
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_alerte_localite:
+    weight: 110
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_alerte_niveau:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_alerte_nom_contact:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_alerte_numero_de_telephone:
+    weight: 106
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_alerte_prenom_contact:
+    weight: 105
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

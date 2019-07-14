@@ -1,0 +1,43 @@
+uuid: a07f6627-1775-4115-9326-ef8812582b69
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tweet.field_tweet_message
+    - node.type.tweet
+  module:
+    - text
+id: node.tweet.default
+targetEntityType: node
+bundle: tweet
+mode: default
+content:
+  field_tweet_message:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

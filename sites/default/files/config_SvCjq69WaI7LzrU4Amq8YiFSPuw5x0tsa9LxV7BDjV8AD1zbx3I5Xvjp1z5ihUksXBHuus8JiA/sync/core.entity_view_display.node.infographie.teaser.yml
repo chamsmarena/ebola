@@ -1,0 +1,24 @@
+uuid: 144b974c-aff7-47e2-ad40-06dccab24c08
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.infographie.field_infogra_date_publication
+    - field.field.node.infographie.field_infogra_fichiers
+    - node.type.infographie
+  module:
+    - user
+id: node.infographie.teaser
+targetEntityType: node
+bundle: infographie
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_infogra_date_publication: true
+  field_infogra_fichiers: true

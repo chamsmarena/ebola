@@ -1,0 +1,30 @@
+uuid: 0daf3f01-2f04-4d2d-9fb2-e8acb4e00972
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.dernieres_infographies
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap
+id: views_block__dernieres_infographies_block_1
+theme: bootstrap
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:dernieres_infographies-block_1'
+settings:
+  id: 'views_block:dernieres_infographies-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

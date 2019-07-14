@@ -1,0 +1,22 @@
+uuid: a484c707-0729-46c2-b81e-5939c6b324f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.financement
+id: node.financement.status
+field_name: status
+entity_type: node
+bundle: financement
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

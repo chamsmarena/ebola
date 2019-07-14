@@ -1,0 +1,22 @@
+uuid: 04d8138c-b5b3-45ff-b5bc-afc0829f3587
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - medicare_zymphonies_theme
+_core:
+  default_config_hash: wm_3N1UUd9SUeWDYomzSDAUyP4T3Ay7DE4R9aNy2RyE
+id: medicare_zymphonies_theme_messages
+theme: medicare_zymphonies_theme
+region: highlighted
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

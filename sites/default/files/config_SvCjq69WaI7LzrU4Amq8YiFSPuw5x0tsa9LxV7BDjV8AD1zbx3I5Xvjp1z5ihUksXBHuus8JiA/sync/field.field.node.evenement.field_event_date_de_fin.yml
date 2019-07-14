@@ -1,0 +1,21 @@
+uuid: d831e2c8-d951-4133-94b3-2cfbea25c02b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_date_de_fin
+    - node.type.evenement
+  module:
+    - datetime
+id: node.evenement.field_event_date_de_fin
+field_name: field_event_date_de_fin
+entity_type: node
+bundle: evenement
+label: 'Date de fin'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

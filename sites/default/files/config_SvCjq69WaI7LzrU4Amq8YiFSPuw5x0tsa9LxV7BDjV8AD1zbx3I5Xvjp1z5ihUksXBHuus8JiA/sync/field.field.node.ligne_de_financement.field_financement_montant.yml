@@ -1,0 +1,23 @@
+uuid: 5ac66253-c1ad-4f6c-8f33-d9817dc5bc2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_financement_montant
+    - node.type.ligne_de_financement
+id: node.ligne_de_financement.field_financement_montant
+field_name: field_financement_montant
+entity_type: node
+bundle: ligne_de_financement
+label: Montant
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

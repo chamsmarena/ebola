@@ -1,0 +1,21 @@
+uuid: bfc22db8-beeb-4bfa-b72c-f7901d3d40d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_commission_description
+    - node.type.commission
+  module:
+    - text
+id: node.commission.field_commission_description
+field_name: field_commission_description
+entity_type: node
+bundle: commission
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

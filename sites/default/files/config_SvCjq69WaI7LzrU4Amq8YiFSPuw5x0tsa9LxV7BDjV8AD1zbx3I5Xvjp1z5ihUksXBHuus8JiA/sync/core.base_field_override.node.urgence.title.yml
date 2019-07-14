@@ -1,0 +1,18 @@
+uuid: 1f581f0e-5c47-4dd2-aa78-00a7d8260c9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.urgence
+id: node.urgence.title
+field_name: title
+entity_type: node
+bundle: urgence
+label: Titre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

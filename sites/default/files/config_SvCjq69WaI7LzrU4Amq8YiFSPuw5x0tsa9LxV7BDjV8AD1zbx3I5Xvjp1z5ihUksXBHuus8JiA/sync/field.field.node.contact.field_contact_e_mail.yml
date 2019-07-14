@@ -1,0 +1,19 @@
+uuid: e50310bf-264b-4b5d-ac8b-1b41ac4a3a98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact_e_mail
+    - node.type.contact
+id: node.contact.field_contact_e_mail
+field_name: field_contact_e_mail
+entity_type: node
+bundle: contact
+label: E-mail
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,38 @@
+uuid: 83b0b728-a07e-4fea-9ec3-05eda79fa46c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_document_image
+    - node.type.document
+  module:
+    - image
+id: node.document.field_document_image
+field_name: field_document_image
+entity_type: node
+bundle: document
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: 100x100
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 4070346b-d4fd-4742-abf4-5e17663fea1b
+    alt: ''
+    title: ''
+    width: 64
+    height: 64
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

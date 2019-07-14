@@ -1,0 +1,27 @@
+uuid: a1c57638-8991-473a-a8d7-c3aceef44a7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - medicare_zymphonies_theme
+_core:
+  default_config_hash: 3UeQdkzDOdjS4Lx6dWyi9rltbcggW89i5164eZ8qT3g
+id: medicare_zymphonies_theme_main_menu
+theme: medicare_zymphonies_theme
+region: primary_menu
+weight: 10
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

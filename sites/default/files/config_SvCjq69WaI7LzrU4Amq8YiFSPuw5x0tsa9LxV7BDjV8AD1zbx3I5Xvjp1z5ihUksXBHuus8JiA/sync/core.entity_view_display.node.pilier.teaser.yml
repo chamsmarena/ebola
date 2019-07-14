@@ -1,0 +1,20 @@
+uuid: 2d6fae4c-ead5-4708-bbff-40b878ca9a09
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.pilier
+  module:
+    - user
+id: node.pilier.teaser
+targetEntityType: node
+bundle: pilier
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

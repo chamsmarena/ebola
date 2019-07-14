@@ -1,0 +1,23 @@
+uuid: 0b2484e1-9854-454f-9a4b-7411a1236214
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_urgence_statut
+    - node.type.urgence
+  module:
+    - options
+id: node.urgence.field_urgence_statut
+field_name: field_urgence_statut
+entity_type: node
+bundle: urgence
+label: Statut
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 'En cours'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

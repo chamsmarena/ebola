@@ -1,0 +1,28 @@
+uuid: 0acdc268-31a9-4480-9a61-f1a5be4b9483
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_financement_bailleur
+    - node.type.acteur
+    - node.type.ligne_de_financement
+id: node.ligne_de_financement.field_financement_bailleur
+field_name: field_financement_bailleur
+entity_type: node
+bundle: ligne_de_financement
+label: Bailleur
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      acteur: acteur
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

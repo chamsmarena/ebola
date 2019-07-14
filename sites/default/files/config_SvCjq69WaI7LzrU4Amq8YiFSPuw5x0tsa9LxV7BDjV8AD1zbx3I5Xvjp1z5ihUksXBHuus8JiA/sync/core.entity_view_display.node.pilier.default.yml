@@ -1,0 +1,37 @@
+uuid: 1f4dbdea-b2a3-4b2b-a436-9d739fa7b1c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.pilier.field_pilier_acteurs_coord
+    - field.field.node.pilier.field_pilier_description
+    - node.type.pilier
+  module:
+    - text
+    - user
+id: node.pilier.default
+targetEntityType: node
+bundle: pilier
+mode: default
+content:
+  field_pilier_acteurs_coord:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_pilier_description:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

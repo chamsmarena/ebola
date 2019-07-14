@@ -1,0 +1,22 @@
+uuid: 24eaecc4-84d2-4bdf-8a05-01b34464fe2d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - medicare_zymphonies_theme
+_core:
+  default_config_hash: avsyDaXWlfC2lpHsxM3ULwz8Ps5VFVuIUP-HkxA7dbE
+id: medicare_zymphonies_theme_local_tasks
+theme: medicare_zymphonies_theme
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

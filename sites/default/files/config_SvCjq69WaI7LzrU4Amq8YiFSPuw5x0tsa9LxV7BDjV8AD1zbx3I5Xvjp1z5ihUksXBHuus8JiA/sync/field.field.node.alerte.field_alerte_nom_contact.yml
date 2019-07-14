@@ -1,0 +1,19 @@
+uuid: abc32ce4-8f78-4cbb-8c39-7d6603b367fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alerte_nom_contact
+    - node.type.alerte
+id: node.alerte.field_alerte_nom_contact
+field_name: field_alerte_nom_contact
+entity_type: node
+bundle: alerte
+label: Nom
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

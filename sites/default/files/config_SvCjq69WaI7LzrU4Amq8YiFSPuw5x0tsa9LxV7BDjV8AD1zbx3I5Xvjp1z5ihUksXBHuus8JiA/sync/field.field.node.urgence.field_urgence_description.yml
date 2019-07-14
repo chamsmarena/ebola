@@ -1,0 +1,21 @@
+uuid: 047b7287-e192-4d2d-a88d-3c6547bd2a6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_urgence_description
+    - node.type.urgence
+  module:
+    - text
+id: node.urgence.field_urgence_description
+field_name: field_urgence_description
+entity_type: node
+bundle: urgence
+label: Description
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

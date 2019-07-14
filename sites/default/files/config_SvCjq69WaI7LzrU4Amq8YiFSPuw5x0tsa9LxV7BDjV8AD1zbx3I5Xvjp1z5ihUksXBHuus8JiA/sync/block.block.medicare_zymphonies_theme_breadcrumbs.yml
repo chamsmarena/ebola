@@ -1,0 +1,22 @@
+uuid: f78b6bd9-1300-4dad-9eb0-1c92fe1190c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - medicare_zymphonies_theme
+_core:
+  default_config_hash: bpeZG4sMXiD4hx3DZknjsQajc7Jj4M2P0HbrmjZ_t5Q
+id: medicare_zymphonies_theme_breadcrumbs
+theme: medicare_zymphonies_theme
+region: breadcrumb
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,74 @@
+uuid: ec715fc2-f23a-4de3-b1da-975eb86b248e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.infographie.field_infogra_date_publication
+    - field.field.node.infographie.field_infogra_description
+    - field.field.node.infographie.field_infogra_fichiers
+    - field.field.node.infographie.field_infogra_image
+    - field.field.node.infographie.field_infogra_sources
+    - field.field.node.infographie.field_infogra_urgence
+    - node.type.infographie
+  module:
+    - datetime
+    - file
+    - image
+    - text
+    - user
+id: node.infographie.default
+targetEntityType: node
+bundle: infographie
+mode: default
+content:
+  field_infogra_date_publication:
+    weight: 1
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_infogra_description:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_infogra_fichiers:
+    weight: 4
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_infogra_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_infogra_sources:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_infogra_urgence:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  links: true

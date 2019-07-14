@@ -1,0 +1,24 @@
+uuid: 5dd8695d-d7aa-400e-a5a7-8c8ea4471c7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_infogra_date_publication
+    - node.type.infographie
+  module:
+    - datetime
+id: node.infographie.field_infogra_date_publication
+field_name: field_infogra_date_publication
+entity_type: node
+bundle: infographie
+label: 'Date publication'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

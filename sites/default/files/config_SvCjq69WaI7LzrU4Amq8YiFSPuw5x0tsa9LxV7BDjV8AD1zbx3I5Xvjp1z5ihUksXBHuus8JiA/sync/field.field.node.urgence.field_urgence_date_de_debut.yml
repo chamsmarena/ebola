@@ -1,0 +1,21 @@
+uuid: 87a86419-fd33-4d7c-8e63-58f7e49d0563
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_urgence_date_de_debut
+    - node.type.urgence
+  module:
+    - datetime
+id: node.urgence.field_urgence_date_de_debut
+field_name: field_urgence_date_de_debut
+entity_type: node
+bundle: urgence
+label: 'Date de déclaration'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

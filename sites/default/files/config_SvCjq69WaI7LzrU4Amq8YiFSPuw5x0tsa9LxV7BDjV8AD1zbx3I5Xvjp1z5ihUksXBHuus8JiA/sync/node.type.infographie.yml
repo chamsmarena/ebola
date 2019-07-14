@@ -1,0 +1,17 @@
+uuid: 27ef015d-932b-4ed0-a13f-4a4e7e5c0175
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Infographie
+type: infographie
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,19 @@
+uuid: e68b844e-4b15-40ee-9fd4-0bcf323f88ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_adresse
+    - node.type.evenement
+id: node.evenement.field_event_adresse
+field_name: field_event_adresse
+entity_type: node
+bundle: evenement
+label: Adresse
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

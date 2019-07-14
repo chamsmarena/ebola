@@ -1,0 +1,31 @@
+uuid: def913cd-584b-4dc6-b4cd-1e28fb74c627
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+  theme:
+    - medicare_zymphonies_theme
+_core:
+  default_config_hash: eEgatAm5sSv7ScYW-iUIjqocnyRKW9-JVdV_2-fFiFM
+id: medicare_zymphonies_theme_content
+theme: medicare_zymphonies_theme
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      document: document
+      infographie: infographie
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

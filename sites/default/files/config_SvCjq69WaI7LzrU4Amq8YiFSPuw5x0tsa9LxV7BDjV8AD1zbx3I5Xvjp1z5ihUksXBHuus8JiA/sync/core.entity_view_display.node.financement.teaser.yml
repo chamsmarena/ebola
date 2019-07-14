@@ -1,0 +1,20 @@
+uuid: b1544c45-56af-4c84-8a06-1ec9fc9384a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.financement
+  module:
+    - user
+id: node.financement.teaser
+targetEntityType: node
+bundle: financement
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

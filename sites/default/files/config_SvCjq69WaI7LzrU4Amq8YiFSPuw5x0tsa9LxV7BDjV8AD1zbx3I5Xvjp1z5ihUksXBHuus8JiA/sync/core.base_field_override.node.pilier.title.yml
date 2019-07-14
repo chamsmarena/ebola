@@ -1,0 +1,18 @@
+uuid: 2655f5a4-bf83-493e-800f-fb94f27fda1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.pilier
+id: node.pilier.title
+field_name: title
+entity_type: node
+bundle: pilier
+label: Titre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,32 @@
+uuid: dbe381f8-e4d6-4e16-8f64-33b071dc9b0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.acteur.field_acteur_adresse
+    - field.field.node.acteur.field_acteur_description
+    - field.field.node.acteur.field_acteur_e_mail
+    - field.field.node.acteur.field_acteur_logo
+    - field.field.node.acteur.field_acteur_numero_de_telephone
+    - field.field.node.acteur.field_acteur_sigle
+    - node.type.acteur
+  module:
+    - user
+id: node.acteur.teaser
+targetEntityType: node
+bundle: acteur
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_acteur_adresse: true
+  field_acteur_description: true
+  field_acteur_e_mail: true
+  field_acteur_logo: true
+  field_acteur_numero_de_telephone: true
+  field_acteur_sigle: true

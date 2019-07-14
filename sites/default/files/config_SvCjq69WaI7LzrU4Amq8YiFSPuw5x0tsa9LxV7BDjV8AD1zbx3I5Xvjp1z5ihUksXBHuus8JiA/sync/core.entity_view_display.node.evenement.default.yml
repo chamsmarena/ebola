@@ -1,0 +1,84 @@
+uuid: 90aa5413-2627-45ab-b7ce-26238294d5ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.evenement.body
+    - field.field.node.evenement.field_event_adresse
+    - field.field.node.evenement.field_event_contact
+    - field.field.node.evenement.field_event_date_de_debut
+    - field.field.node.evenement.field_event_date_de_fin
+    - field.field.node.evenement.field_event_localite
+    - field.field.node.evenement.field_event_salle
+    - node.type.evenement
+  module:
+    - datetime
+    - text
+    - user
+id: node.evenement.default
+targetEntityType: node
+bundle: evenement
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_event_adresse:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_event_contact:
+    weight: 107
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_event_date_de_debut:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_event_date_de_fin:
+    weight: 103
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_event_localite:
+    weight: 106
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_event_salle:
+    weight: 105
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

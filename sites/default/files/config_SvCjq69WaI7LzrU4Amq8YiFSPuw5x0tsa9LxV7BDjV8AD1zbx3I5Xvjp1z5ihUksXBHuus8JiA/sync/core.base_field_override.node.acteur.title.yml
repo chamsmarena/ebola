@@ -1,0 +1,18 @@
+uuid: 826d8405-06bf-4d70-a846-46e2a199f11f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.acteur
+id: node.acteur.title
+field_name: title
+entity_type: node
+bundle: acteur
+label: Nom
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

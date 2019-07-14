@@ -1,0 +1,28 @@
+uuid: a79cffa9-9b8b-439e-bc50-6c94fabdc8b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_document_source
+    - node.type.acteur
+    - node.type.document
+id: node.document.field_document_source
+field_name: field_document_source
+entity_type: node
+bundle: document
+label: Source
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      acteur: acteur
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

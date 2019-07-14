@@ -1,0 +1,30 @@
+uuid: a6b59f07-bff5-4efb-8d1f-23f1f799504d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_alerte_niveau
+field_name: field_alerte_niveau
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Bas
+      label: Bas
+    -
+      value: Moyen
+      label: Moyen
+    -
+      value: Elevé
+      label: Elevé
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

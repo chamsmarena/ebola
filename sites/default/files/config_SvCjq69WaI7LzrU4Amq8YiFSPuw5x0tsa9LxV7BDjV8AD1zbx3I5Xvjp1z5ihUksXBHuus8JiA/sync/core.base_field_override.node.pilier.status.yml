@@ -1,0 +1,22 @@
+uuid: 43762e0b-57b2-436f-bc6f-2f1706b4faa3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.pilier
+id: node.pilier.status
+field_name: status
+entity_type: node
+bundle: pilier
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

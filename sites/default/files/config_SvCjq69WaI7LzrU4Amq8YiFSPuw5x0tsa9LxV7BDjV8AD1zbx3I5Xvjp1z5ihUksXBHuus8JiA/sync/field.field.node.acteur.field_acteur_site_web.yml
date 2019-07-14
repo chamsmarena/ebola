@@ -1,0 +1,19 @@
+uuid: 2d6e7cc5-a515-40ad-833c-16dbd54c4040
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_acteur_site_web
+    - node.type.acteur
+id: node.acteur.field_acteur_site_web
+field_name: field_acteur_site_web
+entity_type: node
+bundle: acteur
+label: 'Site web'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

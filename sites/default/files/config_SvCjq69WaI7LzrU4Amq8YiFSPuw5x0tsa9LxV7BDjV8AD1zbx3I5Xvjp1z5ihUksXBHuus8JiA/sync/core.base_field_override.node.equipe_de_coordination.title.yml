@@ -1,0 +1,18 @@
+uuid: a5ace43d-1c93-46dd-881b-11dbd693037a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.equipe_de_coordination
+id: node.equipe_de_coordination.title
+field_name: title
+entity_type: node
+bundle: equipe_de_coordination
+label: Titre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

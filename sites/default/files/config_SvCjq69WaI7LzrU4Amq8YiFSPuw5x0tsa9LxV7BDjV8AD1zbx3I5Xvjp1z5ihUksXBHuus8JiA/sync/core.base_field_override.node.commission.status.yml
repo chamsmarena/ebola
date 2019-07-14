@@ -1,0 +1,22 @@
+uuid: 406538d1-5292-414d-9e27-a95703bfb874
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.commission
+id: node.commission.status
+field_name: status
+entity_type: node
+bundle: commission
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

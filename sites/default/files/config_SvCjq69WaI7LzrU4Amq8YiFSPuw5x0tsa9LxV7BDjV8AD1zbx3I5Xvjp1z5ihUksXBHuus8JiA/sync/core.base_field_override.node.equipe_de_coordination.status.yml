@@ -1,0 +1,22 @@
+uuid: 4e8e0322-877c-4b5e-b2cd-120b5edc2048
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.equipe_de_coordination
+id: node.equipe_de_coordination.status
+field_name: status
+entity_type: node
+bundle: equipe_de_coordination
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

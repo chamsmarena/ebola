@@ -1,0 +1,29 @@
+uuid: e1c44523-bec4-4820-894f-9b218d4e27ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alerte_localite
+    - node.type.alerte
+    - node.type.localite
+id: node.alerte.field_alerte_localite
+field_name: field_alerte_localite
+entity_type: node
+bundle: alerte
+label: Localité
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      localite: localite
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

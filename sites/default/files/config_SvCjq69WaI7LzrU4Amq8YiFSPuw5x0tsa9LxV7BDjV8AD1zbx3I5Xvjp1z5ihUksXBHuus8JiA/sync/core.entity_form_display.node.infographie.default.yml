@@ -1,0 +1,122 @@
+uuid: e0e68d3c-f143-48f3-8fe6-5ea0b0aecc13
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.infographie.field_infogra_date_publication
+    - field.field.node.infographie.field_infogra_description
+    - field.field.node.infographie.field_infogra_fichiers
+    - field.field.node.infographie.field_infogra_image
+    - field.field.node.infographie.field_infogra_sources
+    - field.field.node.infographie.field_infogra_urgence
+    - image.style.thumbnail
+    - node.type.infographie
+  module:
+    - datetime
+    - file
+    - image
+    - path
+    - text
+id: node.infographie.default
+targetEntityType: node
+bundle: infographie
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_infogra_date_publication:
+    weight: 123
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_infogra_description:
+    weight: 125
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_infogra_fichiers:
+    weight: 124
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_infogra_image:
+    weight: 127
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_infogra_sources:
+    weight: 126
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_infogra_urgence:
+    weight: 128
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,32 @@
+uuid: 97abb994-d657-4d45-bf0c-7c2e3320a40c
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.content_recent
+  module:
+    - node
+    - views
+  theme:
+    - medicare_zymphonies_theme
+id: views_block__content_recent_block_1
+theme: medicare_zymphonies_theme
+region: message
+weight: 0
+provider: null
+plugin: 'views_block:content_recent-block_1'
+settings:
+  id: 'views_block:content_recent-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

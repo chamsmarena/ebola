@@ -1,0 +1,21 @@
+uuid: 3f000c0c-9e25-4468-93a9-672cc377c084
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tweet_message
+    - node.type.tweet
+  module:
+    - text
+id: node.tweet.field_tweet_message
+field_name: field_tweet_message
+entity_type: node
+bundle: tweet
+label: Message
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
